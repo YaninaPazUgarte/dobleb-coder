@@ -1,0 +1,47 @@
+header{
+
+    nav{
+        font-family: $font-family;
+        font-weight: 500px;
+
+        div{
+
+            a{
+                .logo{
+                    width: 100px;
+                    border-radius: 50px;
+                    margin: 10px;
+                }
+            }
+            button{
+
+            }
+            span{
+
+            }
+            div{
+
+                ul{
+                    list-style: none;
+                    display: flex;
+
+                    li{
+                        margin: 20px;
+                    }
+                        a{  
+                            text-decoration: none;
+                            font-family: 'Poppins', sans-serif;
+                            font-weight: 500px;
+                            color:#ffffff; 
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+
+

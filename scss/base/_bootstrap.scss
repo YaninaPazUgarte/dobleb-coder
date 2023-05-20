@@ -1,0 +1,17 @@
+.bg-green{
+    background-color: #567558;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ffffff;
+    text-decoration:underline
+}
