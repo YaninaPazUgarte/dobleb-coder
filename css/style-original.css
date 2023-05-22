@@ -156,8 +156,8 @@ box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
 
 
 .preguntas-frecuentes p{
-    background-color:#17651D;
-    color:#ffffff;
+    background-color:rgb(139, 211, 166);
+    display: inline-block;
 }
 
 
