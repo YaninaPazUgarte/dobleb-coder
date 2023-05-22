@@ -137,10 +137,10 @@ gap: 15px;
 }
 
 .grid-galeria img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
+width: 100%;
+height: 100%;
+object-fit: cover;
+box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
 }
@@ -153,6 +153,13 @@ gap: 15px;
     grid-column: span 2;
     grid-row: span 2;
 }
+
+
+.preguntas-frecuentes p{
+    background-color:#17651D;
+    color:#ffffff;
+}
+
 
 .btn{
     background-color: #049b48;

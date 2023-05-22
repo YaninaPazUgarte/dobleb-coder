@@ -1,3 +1,4 @@
+/*--BOOTSTRAP BARRA DE NAVEGACION--*/
 .bg-green{
     background-color: #567558;
     display: flex;
@@ -14,4 +15,19 @@
 .navbar-light .navbar-nav .nav-link:hover{
     color: #ffffff;
     text-decoration:underline
+}
+
+/*--FORMULARIO--*/
+.btn{
+    background-color: #049b48;
+    border-color: #025025;
+}
+
+.btn:hover{
+    background-color: rgb(78, 77, 76);
+}
+
+.form-control{
+    border: 2.5px solid #636566;
+    background-color: rgb(209, 191, 168);    
 }

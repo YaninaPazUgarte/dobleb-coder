@@ -1,0 +1,150 @@
+/*--MAIN INDEX--*/
+main{
+    padding: 20px;
+    section{
+        .hero{
+            position: relative;
+            background-image: url(../img/background.png);
+            width: 100%;  
+            height: 600px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            h1{
+                color:$color-principal;
+                font-style: normal;
+                font-family:$font-family;
+                font-size:$font-size-principal;
+                font-weight: 700px;
+                height: 65px;
+                background-color: aliceblue;
+                border: 2px solid #05610c; 
+                padding: 15px;
+                display:inline-block;
+                margin-bottom: 0;
+            }
+            img{
+                height:535px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+        }
+    }
+}
+    .beneficios{
+        background-color: aliceblue;
+
+        h2{
+            font-family:$font-family;
+            color:$color-principal;
+            margin: 15px;
+            font-size:$font-size-principal;
+            font-weight: 600px;
+            text-align: center;
+        }
+            
+        
+        p{
+            font-family:$font-family;
+            font-style: normal;
+            font-size:$font-size-secundario;
+            font-weight: 200px;
+            margin-top: 20px;
+        }
+    }
+
+/*--MAIN NOSOTROS--*/
+main{
+    h1{
+        color:$color-principal;
+        font-style: normal;
+        font-family:$font-family;
+        font-size:$font-size-principal;
+        font-weight: 700px;
+    }
+    p{
+        font-family:$font-family;
+        font-style: normal;
+        font-size:$font-size-secundario;
+        font-weight: 200px;
+        margin-top: 20px;
+    }
+}
+
+/*--MAIN GALERIA--*/
+main{
+    h1{
+        color:$color-principal;
+        font-style: normal;
+        font-family:$font-family;
+        font-size:$font-size-principal;
+        font-weight: 700px;
+    }
+    .grid-galeria{
+        width: 100%;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 250px;
+        gap: 15px;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
+        
+            .grid-item{}
+
+            .img-2{
+                grid-row: span 2;
+            }
+
+            .img-7{
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+
+        
+            
+        }
+            
+            }
+            }
+
+/*--MAIN PREGUNTAS FRECUENTES--*/
+main{
+    h1{
+        color:$color-principal;
+        font-style: normal;
+        font-family:$font-family;
+        font-size:$font-size-principal;
+        font-weight: 700px;
+    }
+    .preguntas-frecuentes p{
+        background-color:$color-principal;
+        color:$color-secundario;
+    }
+    p{
+        font-family:$font-family;
+        font-style: normal;
+        font-size:$font-size-secundario;
+        font-weight: 200px;
+        margin-top: 20px;
+    }
+}
+
+/*--MAIN CONTACTO--*/
+main{
+    iframe{
+        box-sizing: border-box;
+        width: 400px;
+        padding: 20px;
+    }
+        }
+    
+
