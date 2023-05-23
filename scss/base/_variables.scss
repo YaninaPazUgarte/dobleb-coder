@@ -1,3 +1,4 @@
+//* VARIABLES
 /*--PALETA DE COLORES--*/
 $color-principal:#17651D;
 $color-secundario:#ffffff;
@@ -9,3 +10,24 @@ $font-family:'Poppins', sans-serif;
 /*--TAMAÑO DE TIPOGRAFIA--*/
 $font-size-principal:25px;
 $font-size-secundario:20px;
+
+//* LISTA
+$font-weight:
+200px,
+500px,
+600px,
+700px;
+
+//* EXTEND
+%background{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+//* MIXIN
+@mixin margen-y-relleno ($margin, $padding){
+    margin: $margin;
+    padding: $padding;
+}

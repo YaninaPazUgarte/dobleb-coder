@@ -1,22 +1,19 @@
 /*--MAIN INDEX--*/
 main{
-    padding: 20px;
+    @include margen-y-relleno (5px, 20px);
     section{
         .hero{
             position: relative;
             background-image: url(../img/background.png);
             width: 100%;  
             height: 600px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            background-size: cover;
+            @extend %background;
             h1{
                 color:$color-principal;
                 font-style: normal;
                 font-family:$font-family;
                 font-size:$font-size-principal;
-                font-weight: 700px;
+                font-weight: nth($font-weight, 4);
                 height: 65px;
                 background-color: aliceblue;
                 border: 2px solid #05610c; 
@@ -41,7 +38,7 @@ main{
             color:$color-principal;
             margin: 15px;
             font-size:$font-size-principal;
-            font-weight: 600px;
+            font-weight: nth($font-weight, 3);
             text-align: center;
         }
             
@@ -50,8 +47,8 @@ main{
             font-family:$font-family;
             font-style: normal;
             font-size:$font-size-secundario;
-            font-weight: 200px;
-            margin-top: 20px;
+            font-weight: nth($font-weight, 1);
+            @include margen-y-relleno (5px, 5px);
         }
     }
 
@@ -62,14 +59,14 @@ main{
         font-style: normal;
         font-family:$font-family;
         font-size:$font-size-principal;
-        font-weight: 700px;
+        font-weight: nth($font-weight, 4);
     }
     p{
         font-family:$font-family;
         font-style: normal;
         font-size:$font-size-secundario;
-        font-weight: 200px;
-        margin-top: 20px;
+        font-weight: nth($font-weight, 1);
+        @include margen-y-relleno (5px, 5px);
     }
 }
 
@@ -80,7 +77,7 @@ main{
         font-style: normal;
         font-family:$font-family;
         font-size:$font-size-principal;
-        font-weight: 700px;
+        font-weight: nth($font-weight, 4);
     }
     .grid-galeria{
         width: 100%;
@@ -120,17 +117,14 @@ main{
         font-style: normal;
         font-family:$font-family;
         font-size:$font-size-principal;
-        font-weight: 700px;
+        font-weight: nth($font-weight, 4);
     }
-    .preguntas-frecuentes{
-        background-color:rgb(139, 211, 166);
-        display: inline-block;
-    }
+    
     p{
         font-family:$font-family;
         font-style: normal;
         font-size:$font-size-secundario;
-        font-weight: 200px;
+        font-weight: nth($font-weight, 1);
         margin-top: 20px;
     }
 }
@@ -140,8 +134,8 @@ main{
     iframe{
         box-sizing: border-box;
         width: 400px;
-        padding: 20px;
+        @include margen-y-relleno (15px, 20px);
     }
-        }
+    }
     
 

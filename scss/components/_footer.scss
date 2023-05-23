@@ -1,12 +1,22 @@
 footer{
+    .footercontenedor{
+        .redessociales{
+    
+                img{
+                    width: 50px;
+                    left: 50px;
+                    bottom: 20px;
+                    @include margen-y-relleno (5px, 3px);
+                    transition: 1s;
+                }
+                .redsocial:hover{
+                    transform: scale(1.2);
+                }
+                }
+            }
+        }
+    
 
-            img{
-            width: 50px;
-            left: 50px;
-            bottom: 20px;
-            margin: 5px;
-    }
-}
                 
             
         .fixed{
