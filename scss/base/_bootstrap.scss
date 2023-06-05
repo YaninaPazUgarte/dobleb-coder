@@ -6,6 +6,7 @@
     align-items: center;
 }
 
+
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link{
     color: #ffffff;
 }
@@ -16,11 +17,22 @@
     text-decoration:underline
 }
 
+.collapse{
+    display: flex;
+    justify-content:center;
+}
+
 /*--FORMULARIO--*/
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
 .btn{
     background-color: #049b48;
     border-color: #025025;
     margin: 10px;
+    text-align: center;
 }
 
 .btn:hover{

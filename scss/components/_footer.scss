@@ -1,6 +1,6 @@
 footer{
-    .footercontenedor{
-        .redessociales{
+    .footer-contenedor{
+        .redes-sociales{
     
                 img{
                     width: 50px;
@@ -9,7 +9,7 @@ footer{
                     @include margen-y-relleno (5px, 3px);
                     transition: 1s;
                 }
-                .redsocial:hover{
+                .red-social:hover{
                     transform: scale(1.2);
                 }
                 }
@@ -27,7 +27,7 @@ footer{
             margin: 5px;
             
             }
-        .footercontenedor p{
+        .footer-contenedor p{
             text-align: center;
             background-color:#567558;
 

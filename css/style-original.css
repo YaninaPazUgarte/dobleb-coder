@@ -154,6 +154,14 @@ box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
     grid-row: span 2;
 }
 
+.registrate h1{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
 
 .btn{
     background-color: #049b48;

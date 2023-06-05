@@ -53,20 +53,21 @@ main{
     }
 
 /*--MAIN NOSOTROS--*/
-main{
-    h1{
-        color:$color-principal;
-        font-style: normal;
-        font-family:$font-family;
-        font-size:$font-size-principal;
-        font-weight: nth($font-weight, 4);
+.historia{
+    background-color: aliceblue;
+        h1{
+            color:$color-principal;
+            font-style: normal;
+            font-family:$font-family;
+            font-size:$font-size-principal;
+            font-weight: nth($font-weight, 4);
     }
-    p{
-        font-family:$font-family;
-        font-style: normal;
-        font-size:$font-size-secundario;
-        font-weight: nth($font-weight, 1);
-        @include margen-y-relleno (5px, 5px);
+        p{
+            font-family:$font-family;
+            font-style: normal;
+            font-size:$font-size-secundario;
+            font-weight: nth($font-weight, 1);
+            @include margen-y-relleno (5px, 5px);
     }
 }
 
@@ -111,26 +112,39 @@ main{
             
 
 /*--MAIN PREGUNTAS FRECUENTES--*/
-main{
-    h1{
-        color:$color-principal;
-        font-style: normal;
-        font-family:$font-family;
-        font-size:$font-size-principal;
-        font-weight: nth($font-weight, 4);
-    }
+.cuestionario{
+    background-color: aliceblue;
+        h1{
+            color:$color-principal;
+            font-style: normal;
+            font-family:$font-family;
+            font-size:$font-size-principal;
+            font-weight: nth($font-weight, 4);
+            text-align: center;
+        }
     
-    p{
-        font-family:$font-family;
-        font-style: normal;
-        font-size:$font-size-secundario;
-        font-weight: nth($font-weight, 1);
-        margin-top: 20px;
-    }
+        p{
+            font-family:$font-family;
+            font-style: normal;
+            font-size:$font-size-secundario;
+            font-weight: nth($font-weight, 1);
+            margin-top: 20px;
+        }
 }
 
 /*--MAIN CONTACTO--*/
 main{
+    .registrate{
+        h1{
+            text-align: center;
+            }
+            .comentario h2{
+                font-family:$font-family;
+                color:$color-principal;
+                font-size:$font-size-principal;
+                font-weight: nth($font-weight, 3);
+        }
+    }
     iframe{
         box-sizing: border-box;
         width: 400px;

@@ -23,11 +23,20 @@ main section .hero {
   color: #ffffff;
   text-decoration: underline; }
 
+.collapse {
+  display: flex;
+  justify-content: center; }
+
 /*--FORMULARIO--*/
+.buttons {
+  display: flex;
+  justify-content: center; }
+
 .btn {
   background-color: #049b48;
   border-color: #025025;
-  margin: 10px; }
+  margin: 10px;
+  text-align: center; }
 
 .btn:hover {
   background-color: #4e4d4c; }
@@ -105,20 +114,21 @@ main {
     padding: 5px; }
 
 /*--MAIN NOSOTROS--*/
-main h1 {
-  color: #17651D;
-  font-style: normal;
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
-  font-weight: 700px; }
-
-main p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-size: 20px;
-  font-weight: 200px;
-  margin: 5px;
-  padding: 5px; }
+.historia {
+  background-color: aliceblue; }
+  .historia h1 {
+    color: #17651D;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700px; }
+  .historia p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 200px;
+    margin: 5px;
+    padding: 5px; }
 
 /*--MAIN GALERIA--*/
 main h1 {
@@ -149,28 +159,39 @@ main .grid-galeria {
     grid-row: span 2; }
 
 /*--MAIN PREGUNTAS FRECUENTES--*/
-main h1 {
-  color: #17651D;
-  font-style: normal;
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
-  font-weight: 700px; }
-
-main p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-size: 20px;
-  font-weight: 200px;
-  margin-top: 20px; }
+.cuestionario {
+  background-color: aliceblue; }
+  .cuestionario h1 {
+    color: #17651D;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700px;
+    text-align: center; }
+  .cuestionario p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 200px;
+    margin-top: 20px; }
 
 /*--MAIN CONTACTO--*/
+main .registrate h1 {
+  text-align: center; }
+
+main .registrate .comentario h2 {
+  font-family: "Poppins", sans-serif;
+  color: #17651D;
+  font-size: 25px;
+  font-weight: 600px; }
+
 main iframe {
   box-sizing: border-box;
   width: 400px;
   margin: 15px;
   padding: 20px; }
 
-footer .footercontenedor .redessociales img {
+footer .footer-contenedor .redes-sociales img {
   width: 50px;
   left: 50px;
   bottom: 20px;
@@ -178,7 +199,7 @@ footer .footercontenedor .redessociales img {
   padding: 3px;
   transition: 1s; }
 
-footer .footercontenedor .redessociales .redsocial:hover {
+footer .footer-contenedor .redes-sociales .red-social:hover {
   transform: scale(1.2); }
 
 .fixed {
@@ -188,7 +209,7 @@ footer .footercontenedor .redessociales .redsocial:hover {
   width: 50px;
   margin: 5px; }
 
-.footercontenedor p {
+.footer-contenedor p {
   text-align: center;
   background-color: #567558; }
 
@@ -235,12 +256,14 @@ footer .footercontenedor .redessociales .redsocial:hover {
       grid-row: span 1; } }
 
 @media screen and (max-width: 450px) {
-  footer .footercontenedor .fixed {
-    display: none; } }
-
-@media screen and (max-width: 450px) {
+  main .buttons {
+    flex-direction: column; }
   main iframe {
     width: 100%; } }
+
+@media screen and (max-width: 450px) {
+  footer .footercontenedor .fixed {
+    display: none; } }
 
 @media screen and (max-width: 385px) {
   main section .hero h1 {

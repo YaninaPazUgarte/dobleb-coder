@@ -84,6 +84,17 @@
 
 
 @media screen and (max-width:450px){
+    main{
+        .buttons{
+            flex-direction: column;
+        }
+            iframe{
+                width: 100%;
+        }
+    }
+}   
+    
+@media screen and (max-width:450px){
     footer{
         .footercontenedor{
             .fixed{
@@ -92,16 +103,6 @@
             }
         }
     }
-
-
-@media screen and (max-width:450px){
-    main{
-        iframe{
-            width: 100%;
-        }
-    }
-}   
-    
 
 
 @media screen and (max-width:385px){
