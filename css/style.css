@@ -185,11 +185,13 @@ main .registrate .comentario h2 {
   font-size: 25px;
   font-weight: 600px; }
 
-main iframe {
+main .mapa iframe {
+  display: flex;
+  justify-content: center;
   box-sizing: border-box;
-  width: 400px;
-  margin: 15px;
-  padding: 20px; }
+  width: 100%;
+  margin: 0px;
+  padding: 10px; }
 
 footer .footer-contenedor .redes-sociales img {
   width: 50px;
@@ -204,10 +206,11 @@ footer .footer-contenedor .redes-sociales .red-social:hover {
 
 .fixed {
   position: fixed;
-  right: 20px;
-  bottom: 5px;
+  right: 30px;
+  bottom: 30px;
   width: 50px;
-  margin: 5px; }
+  margin: 5px;
+  padding: 10px; }
 
 .footer-contenedor p {
   text-align: center;
@@ -258,11 +261,11 @@ footer .footer-contenedor .redes-sociales .red-social:hover {
 @media screen and (max-width: 450px) {
   main .buttons {
     flex-direction: column; }
-  main iframe {
+  main .mapa iframe {
     width: 100%; } }
 
 @media screen and (max-width: 450px) {
-  footer .footercontenedor .fixed {
+  footer .footer-contenedor .fixed {
     display: none; } }
 
 @media screen and (max-width: 385px) {

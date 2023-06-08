@@ -145,11 +145,15 @@ main{
                 font-weight: nth($font-weight, 3);
         }
     }
-    iframe{
-        box-sizing: border-box;
-        width: 400px;
-        @include margen-y-relleno (15px, 20px);
+        .mapa iframe{
+                display: flex;
+                justify-content: center;
+                box-sizing: border-box;
+                width:100%;
+                @include margen-y-relleno (0px, 10px);
+        }
+        
     }
-    }
+    
     
 
